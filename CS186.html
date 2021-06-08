@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <style>
+    div.padded {
+      padding-top: 30px;
+      padding-right: 100px;
+      padding-bottom: 0.25in;
+      padding-left: 100px;
+      background-color: white;
+    }
+
+
+    h2 {
+      text-align: center;
+    }
+    td {
+      padding: 25px;
+    }
+
+    .variable {
+      font-family: monospace;
+    }
+    .image-txt-container {
+        padding-top: 30px;
+        padding-right: 100px;
+        padding-bottom: 0.25in;
+        padding-left: 100px;
+        background-color: white;
+        display: flex;
+        align-items: normal;
+        flex-direction: row;
+    }
+
+    .left-img {
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 10px;
+    }
+
+    .right-txt {
+      clear: right;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .equation {
+      margin: 0 auto 0 auto;
+    }
+
+    .c {
+      border-collapse: collapse;
+    }
+    </style>
+      <title>CS186 - Introduction to Database System </title>
+    </head>
+    
+    <body>
+      <a href="https://shengxianchen11.github.io/">Back to resume</a>
+      <p> Access methods and file systems to facilitate data access. Hierarchical, network, relational, and object-oriented data models. Query languages for models. Embedding query languages in programming languages. Database services including protection, integrity control, and alternative views of data. High-level interfaces including application generators, browsers, and report writers. Introduction to transaction processing. Database system implementation to be done as term project.
+      </p>
+      <a href="https://cs186berkeley.net/">Course Spec</a>
+      <h2> Course Projects</h2>
+      <h4> SQL </h4>
+      <li>
+        In this project we worked with the commonly-used Lahman baseball statistics database (our friends at the San Francisco Giants tell us they use it!) The database contains pitching, hitting, and fielding statistics for Major League Baseball from 1871 through 2019.
+      </li>
+      <h4> B+ Tree </h4>
+      <li>
+        Implemented B+ Tree leaf node creation, traversal, scans, bulkloading, and clustered/unclustered version of B+ Tree stroing
+      </li>
+      <h4> Joins and Query Optimizations </h4>
+      <li> 
+        Implemented different join algorithms. i.e. Nested Loop Joins, Simple Hash joins and Grace Hash joins, External Sort, Sort Merge Joins
+      </li>
+      <li> 
+        Using System R dynamic programming, implemented a query optimzation plan to predict the least costly plan for query.
+      </li>
+      <h4> Concurrency </h4>
+      <li>
+        Implemented lock queuing. Including different lock level. Define diffent lock type and relationship with each other to see if they are compatible with each other. Implemented queue in order for lock scheduling.
+      </li>
+      <li> 
+        Implemented multigranularity and compatibility with different transactions to allow them to access the same database system concurrently with ACID properties followed. Implemented two-phase locking (i.e.) 2PL
+      </li>
+      <h4> Recovery </h4>
+      <li>
+        Implement recovery scheme using logging. Define different types of transaction status to notify program what should the program do next. 
+      </li>
+      <li>
+        Implemented restart recovery, recover transactions after it crashed.
+      </li>
+      <h4> Nosql </h4>
+      <li> Introduction to MongoDB database programming language. </li>
+
+    </body>
+</html>
